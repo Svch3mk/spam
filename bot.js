@@ -25,6 +25,11 @@ client.on('message', message => {
     if(message.content === '-مبلغ'){
         message.channel.send('#credits')
     }
+   	    let args = message.content.split(' ').slice(1).join(' ');
+if(message.content.startsWith('-قول')) {
+   
+ message.send(args);  
+}
 });
 
 client.on('message', message => {
