@@ -17,7 +17,38 @@ if(message.content.startsWith('-قول')) {
  message.channel.send(args);  
 }
 });
-
+client2.on('message', message => {
+   if(!message.author.id === '442032455239860224') return
+  let args = message.content.split(' ').slice(1).join(' ');
+if(message.content.startsWith('-قول2')) {
+   
+ message.channel.send(args);  
+}
+});
+client3.on('message', message => {
+   if(!message.author.id === '442032455239860224') return
+  let args = message.content.split(' ').slice(1).join(' ');
+if(message.content.startsWith('-قول3')) {
+   
+ message.channel.send(args);  
+}
+});
+client4.on('message', message => {
+   if(!message.author.id === '442032455239860224') return
+  let args = message.content.split(' ').slice(1).join(' ');
+if(message.content.startsWith('-قول4')) {
+   
+ message.channel.send(args);  
+}
+});
+client5.on('message', message => {
+   if(!message.author.id === '442032455239860224') return
+  let args = message.content.split(' ').slice(1).join(' ');
+if(message.content.startsWith('-قول5')) {
+   
+ message.channel.send(args);  
+}
+});
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
