@@ -11,7 +11,7 @@ const client5 = new Discord.Client();
 
 
 client2.on('message', message => {
-   if(!message.author.id === '442032455239860224') return
+   if(!message.author.id == '442032455239860224') return
   let args = message.content.split(' ').slice(1).join(' ');
 if(message.content.startsWith('-قول2')) {
    
@@ -19,7 +19,7 @@ if(message.content.startsWith('-قول2')) {
 }
 });
 client3.on('message', message => {
-   if(!message.author.id === '442032455239860224') return
+   if(!message.author.id == '442032455239860224') return
   let args = message.content.split(' ').slice(1).join(' ');
 if(message.content.startsWith('-قول3')) {
    
@@ -27,7 +27,7 @@ if(message.content.startsWith('-قول3')) {
 }
 });
 client4.on('message', message => {
-   if(!message.author.id === '442032455239860224') return
+   if(!message.author.id == '442032455239860224') return
   let args = message.content.split(' ').slice(1).join(' ');
 if(message.content.startsWith('-قول4')) {
    
@@ -35,7 +35,7 @@ if(message.content.startsWith('-قول4')) {
 }
 });
 client5.on('message', message => {
-   if(!message.author.id === '442032455239860224') return
+   if(!message.author.id == '442032455239860224') return
   let args = message.content.split(' ').slice(1).join(' ');
 if(message.content.startsWith('-قول5')) {
    
